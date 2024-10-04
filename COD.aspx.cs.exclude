@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+using System.Data.Sql;
+using System.Net;
+using System.IO;
+using System.Web.Script.Serialization;
+using System.Drawing;
+using System.Web.UI.HtmlControls;
+
+
+public partial class COD : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        lblStatus.Text = "** Successfully Order ! **";
+        lblStatus.ForeColor = Color.Green;
+        //lblTransID.Text = "TransID : ";// +TransId.ToString();
+        HtmlMeta oScript = new HtmlMeta();
+        oScript.Attributes.Add("http-equiv", "REFRESH");
+        oScript.Attributes.Add("content", "5; url='index.aspx'");
+        Page.Header.Controls.Add(oScript);
+       
+    }
+}

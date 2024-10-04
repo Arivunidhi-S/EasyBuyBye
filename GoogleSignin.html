@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    
+<!--<meta name="google-signin-client_id" content="483364606606-aenk52kg1m8cd89360qfbcgmq8h0nbmk.apps.googleusercontent.com" />--> <!--Local-->
+<meta name="google-signin-client_id" content="483364606606-v16vfs8o70cevq4u2ho28r29gogbdt7v.apps.googleusercontent.com" />
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<body>
+<div id="profileinfo"></div>  
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
+                                   
+ <script>  
+
+     function onSignIn(googleUser) {
+         var profile = googleUser.getBasicProfile();
+         console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+         console.log('Name: ' + profile.getName());
+         console.log('Image URL: ' + profile.getImageUrl());
+         console.log('Email: ' + profile.getEmail());
+         signOut();
+         document.getElementById('profileinfo').innerHTML = profile.getName() + "<br>" + "<a  href='mailto:'" + profile.getEmail() + "'>" + profile.getEmail() + "</a>" + "<br>" + "<img src='" + profile.getImageUrl() + "'/>";
+     }
+     </script>
+      <a href="" onclick="signOut();">Sign out</a>
+      <script>  
+     function signOut() {
+         var auth2 = gapi.auth2.getAuthInstance();
+         auth2.signOut().then(function () {
+             console.log('User signed out.');
+             document.getElementById('profileinfo').innerHtML = "";
+         });
+     }
+</script>
+</body>
+</html>

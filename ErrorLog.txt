@@ -1,0 +1,1 @@
+c:\Domains\easybuybye.com\easybuybye.com\wwwroot\Login.aspx.cs(163): error CS0117: 'BusinessTier' does not contain a definition for 'GetMsg'
