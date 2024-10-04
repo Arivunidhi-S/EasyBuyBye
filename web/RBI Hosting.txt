@@ -1,0 +1,54 @@
+Hosting server
+https://www.host.co.in/
+-----------------------------------------------------
+https://portal.host.co.in/clientarea.php?action=invoices
+
+Email : nidhiarivu@gmail.com
+Password : Nidhis@123
+-----------------------------------------------------
+c panel
+
+http://103.101.58.181:8880/login_up.php
+
+username : admin
+password : nidhis123
+-----------------------------------------------------
+Remote Server
+
+
+103.101.58.181:5533
+
+username: HOST-1235
+Password: K3@HKtW#M%X45b517
+------------------------------------------------------
+
+password use below link
+
+https://secure.esds.co.in/?63da4d51f451c93a#/CyUsWPXzHycvld3VPSqwbEtAMlYD42th9q8rYvvz3w=
+-------------------------------------------------------
+
+Database Sql server 2019
+
+username : sa
+Password : K3@HKtW#M%X45b517
+
+-------------------------------------------------------
+Webspace settings 
+
+Domain IP : 103.101.58.181 (shared)
+
+Your temporary domain name : sleepy-cori.103-101-58-181.plesk.pageyes
+
+Username : sleepy-co_pksosab822is there
+
+Password : #23sQvQd0Q
+---------------------------------------------------------
+Webspace settings
+
+Domain IP : 103.101.58.181 (shared)
+
+hosting domain name : rbimalaysia.com
+
+Username : rbimalaysia
+
+Password : Nidhis@123
